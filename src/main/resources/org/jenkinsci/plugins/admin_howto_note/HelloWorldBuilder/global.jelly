@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+  <f:section title="Admin How-to Note">
+    <f:entry title="HTML Note" field="htmlNoteInGlobalConfigField"
+      description="Place the HTML here that you'd like to see appear in the 'Note from Jenkins Admin' build step">
+      <f:textarea name="htmlNoteFromGlobalConfig"/>
+    </f:entry>
+  </f:section>
+  
+</j:jelly>
